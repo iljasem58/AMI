@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { WeddingInvitationComponent } from './wedding-invitation/wedding-invitation.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DisclaimerText} from "./home/disclaimer-text/discalimer-text";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     WeddingInvitationComponent,
+    DisclaimerText
   ],
   imports: [
     BrowserModule,
